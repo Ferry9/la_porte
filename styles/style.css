@@ -1,23 +1,25 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-boxs;
+	box-sizing: border-box;
 }
+
+
+/*body*/
 
 body{
 
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+
 
 }
 
+/*main  début*/
+
 main{
-	height: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
-	padding-left:17%  ;
+	gap: 30px;
+	padding-left: 18%;
 
 
 }
@@ -36,17 +38,9 @@ h2{
 }
 
 
-footer{
-	height: 70px;
-	background: #a0bced;
-	position: relative;
-	display: flex;
-	
-}
 
 .un{
 	border: 1px dashed black;
-	height: 200px;
 	width: 1000px;
 	position: relative;
 	top: 40px;
@@ -58,12 +52,12 @@ footer{
 }
 
    .bouton{
-	height: 18%;
+	height:50px;
 	width: 12%;
 	border-radius: 10px;
 	background: #a0bced;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 
@@ -74,6 +68,7 @@ a{
 .bouton:hover{
 	color: black;
 	background: green;
+
 }
 
 
@@ -84,12 +79,29 @@ a{
 
 /*   Flex  Block article*/
 
+.tem{
+	animation: my 6s infinite;
+}
+
+@keyframes my{
+    from{
+         left: 0;
+    }
+
+
+    to{
+
+    	left: 610px;
+
+    }
+}
+
 
 .article{
 
 	margin-top: 5%;
 	display: flex;
-	width: 1050px;
+	width: 1000px;
 	gap: 6%;
 	
 }
@@ -100,8 +112,12 @@ a{
 .art_sect1, .art_sect2, .art_sect3 {
 	display: flex;
 	flex-direction: column;
-	gap: 18px;
+	gap: 30px;
 	width: 32%;
+}
+
+.item{
+	width: 88%;
 }
 
 
@@ -125,6 +141,30 @@ a{
 	width: 1050px;
 }
 
+
+
+
+/*Lorem en bienvenu*/
+
 .lorem{
 	font-size: 1.2em;
 }
+
+
+/*Fin du amin*/
+
+
+
+
+
+/*Foote*/
+
+footer{
+	height: 70px;
+	background: #a0bced;
+	display: flex;
+	align-items: center;
+
+}
+
+/*Fin footer*/
