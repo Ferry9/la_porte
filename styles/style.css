@@ -7,9 +7,7 @@
 
 /*body*/
 
-body{
-
-
+body{ width: 100%;
 
 }
 
@@ -20,6 +18,7 @@ main{
 	flex-direction: column;
 	gap: 30px;
 	padding-left: 18%;
+	width: 100%;
 
 
 }
@@ -37,17 +36,22 @@ h2{
 	text-indent: 40px;
 }
 
+h3{
+	font-size: 1.5em;
+	width: 70%;
+}
+
 
 
 .un{
 	border: 1px dashed black;
-	width: 1000px;
+	width: 76%;
 	position: relative;
 	top: 40px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
-	padding: 2%;
+	padding: 2% 2% 2% 3%;
 
 }
 
@@ -57,7 +61,7 @@ h2{
 	border-radius: 10px;
 	background: #a0bced;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 12px;
 }
 
 
@@ -79,30 +83,13 @@ a{
 
 /*   Flex  Block article*/
 
-.tem{
-	animation: my 6s infinite;
-}
-
-@keyframes my{
-    from{
-         left: 0;
-    }
-
-
-    to{
-
-    	left: 610px;
-
-    }
-}
-
 
 .article{
 
 	margin-top: 5%;
 	display: flex;
-	width: 1000px;
-	gap: 6%;
+	width: 76%;
+	gap: 4%;
 	
 }
 
@@ -136,9 +123,8 @@ a{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	gap: 10px;
-
-	width: 1050px;
+	gap: 5%;
+    width: 76%;
 }
 
 
@@ -164,6 +150,7 @@ footer{
 	background: #a0bced;
 	display: flex;
 	align-items: center;
+	width: 100%;
 
 }
 
